@@ -2,6 +2,13 @@ body {
     font-family: Arial;
 }
 
+h2 {
+    font-size: 35px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -48,23 +55,24 @@ body {
     padding: 7px 12px;
     margin: auto;
 }
+
 .title_screen {
     padding: 150px 315px 150px 381px;
     background: url("https://maurisweb.ru//images/maurisweb_and_wm/1/5e36d8de6a1fa_website/zrazrabotka-saytov/MW100-a-3-33.jpg") no-repeat;
     background-size: 100%;
-
-
 }
-.title_screen img{
+
+.title_screen img {
     height: 100px;
     width: auto;
     margin-bottom: 100px;
 }
-.title_screen .text{
-    width: 540px;
 
+.title_screen .text {
+    width: 540px;
 }
-.title_screen h1{
+
+.title_screen h1 {
     font-size: 50px;
     color: rgb(34, 34, 34);
     font-weight: 700;
@@ -74,21 +82,176 @@ body {
     font-family: 'Montserrat', sans-serif;
     /*font-family: 'Open Sans', sans-serif;*/
 }
-.title_screen p{
+
+.title_screen p {
     font-size: 14px;
     color: rgb(85, 85, 85);
     line-height: 21px;
     font-weight: 400;
-    padding: 6px 0 ;
+    padding: 6px 0;
     margin-bottom: 70px;
     /*width: 50px;*/
     font-family: 'Open Sans', sans-serif;
 }
-.title_screen .button em{
+
+.title_screen .button em {
     padding: 16px;
     color: rgb(0, 91, 255);
     font-size: 16.8px;
     border: solid 2px rgb(0, 91, 255);
     border-radius: 30px;
 
+}
+.info .sales_of_services {
+    display: flex;
+    /*padding: 150px 0 ;*/
+    padding: 140px 350px 140px 350px;
+    background: #232122;
+    color: white;
+}
+
+.info .sales_of_services .text {
+    width: 440px;
+    padding: 6px 30px;
+    margin: 0 100px 50px 0;
+}
+
+.info .sales_of_services h2 {
+    margin: 20px 0 50px;
+    line-height: 40px;
+}
+
+.info .sales_of_services p {
+    padding: 10px 0;
+    line-height: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.info .sales_of_services .img {
+    margin: auto;
+}
+
+.info .sales_of_services img {
+    width: 540px;
+    padding: 0 20px;
+}
+
+.info .sell {
+    display: flex;
+    padding: 40px 315px 0 351px;
+    background: #dddddd;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    height: 600px;
+}
+
+.info .sell .invisible {
+    width: 440px;
+    padding: 0 30px;
+}
+
+.info .sell img {
+    width: 440px;
+    height: auto;
+}
+
+.info .sell .img {
+    position: absolute;
+    top: -20px;
+    left: 340px;
+}
+
+.info .sell .text  {
+    padding: 0 30px;
+    margin: auto 0 100px 100px;
+    font-size: 14px;
+    color: #555;
+    width: 550px;
+    /*height: 562px;*/
+    line-height: 21px;
+    /*align-items: center;*/
+}
+.info .sell h2 {
+    color: #444;
+    margin: 20px 0 60px;
+    line-height: 42px;
+    font-size: 35px;
+}
+
+.info .sell .container {
+    padding: 6px 0;
+    /*margin: auto;*/
+}
+
+.info .sell .text .container p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 14px;
+}
+.info .sell .text .container li{
+    line-height: 18px;
+}
+.info .technical_side {
+    padding: 140px 350px 160px 381px;
+    color: white;
+    background: url("https://maurisweb.ru//images/maurisweb_and_wm/1/5e36d8de6a1fa_website/zrazrabotka-saytov/16379_result.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.info .technical_side .text {
+    width: 445px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.info .technical_side h2 {
+    margin: 20px 0 50px;
+    line-height: 42px;
+}
+
+.info .technical_side .container {
+    padding: 6px 0;
+    margin-bottom: 50px;
+    line-height: 18px;
+}
+
+.info .technical_side p {
+    padding: 10px 0;
+}
+.info .office {
+    display: flex;
+    padding: 0 0 0 300px;
+    background: url("https://maurisweb.ru//images/maurisweb_and_wm/1/5e36d8de6a1fa_website/qw003-osobennosti_magazina_uslug/934_result.jpg") no-repeat;
+    background-size: 90%;
+}
+.info .office .width_background{
+    width: 90%;
+    background: white;
+}
+.info .office .invisible{
+    width: 891px;
+    height: auto;
+    padding: 0 30px;
+}
+.info .office .text{
+    width: 440px;
+    padding: 150px 130px;
+    color: #444;
+}
+.info .office .text h2{
+    padding: 20px 0 50px;
+    font-size: 35px;
+    font-family: "Montserrat";
+}
+.info .office .text p, .office .text li{
+    font-size: 14px;
+    padding: 15px 0;
+    color: #565656;
+    line-height: 21px;
+    letter-spacing:0.4px;
+}
+.office .text li{
+    padding: 0;
 }
